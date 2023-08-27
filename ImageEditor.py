@@ -40,7 +40,7 @@ with Image.open(img)as img:
         img1 = img.resize((int(w),int(h)))
         img1.save("RESIZED.jpg")
     else:
-        raise Exception("Enter valid command")
+        print("Enter valid command")
 
 
 
